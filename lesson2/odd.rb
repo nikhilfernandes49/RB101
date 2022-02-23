@@ -1,12 +1,8 @@
+#further exploration
+
 def is_odd?(integer)
-  if integer / 2 == 0
-    puts "false"
-  else
-    puts "true"
-  end
+integer.remainder(2) != 0
 end
-
-
 
 
 
