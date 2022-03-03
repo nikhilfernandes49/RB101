@@ -1,0 +1,88 @@
+1) a method that returns the sum of two integers
+  Given two integers,
+  Select the first and add it to the second
+  Save the result in a variable
+  Print the variable
+
+  START
+  GET the first integer
+  GET the second integer
+  SET a variable
+  Add the first integer to the second integer
+  Save the value of the addition to the variable
+  END
+
+2) a method that takes an array of strings, and returns a string that is all those
+  strings concatenated together
+  Given an array of strings,
+  Create a variable which will store the string we need
+  Iterate over the array, and put each element into the variable, adding the string to the string already saved
+
+  START
+  GET the array
+  SET a variable called result
+  SET a variable called iterator and give it the value of 0
+  WHILE iterator is less than or equal to the number of elements in the array
+  Add each element to the variable called result
+  Add 1 to the iterator
+  READ result  
+  END
+
+3) a method that takes an array of integers, and returns a new array with
+  every other element from the original array, starting with the first element. 
+  Given an array of integers
+  Create a loop
+  The loop will first save an integer into a new array
+  the loop will then delete an integer from the original array
+  the loop will break once the length of the array is 0
+
+  START
+  GET the array
+  SET a variable called new_array
+  WHILE the length of the array is greater than 0
+  Return the first integer and put it into new_array
+  Delete the new first integer
+  READ new_array
+  END
+
+4) a method that determines the index of the 3rd occurrence of a given character in a string.
+  For instance, if the given character is 'x' and the string is 'axbxcdxex', the method should return 6
+  (the index of the 3rd 'x'). If the given character does not occur at least 3 times, return nil.
+  Given a string
+  Given a target character
+  Split the string into individual characters and put them in an array
+  Compare the target character to each index value in the array
+  If none match, display "error"
+  Name a variable called count
+  Set the value to 3
+  Compare the target value to the array
+  Every time the comparison returns true, decrease the count by 1
+  when the count hits 0, print the index of the value that returned true
+  Once the loop is over, if count is less than 3, print "nil"
+
+  GET the string
+  GET the value
+  SET a variable called 'array' which contains an empty array
+  SET a variable called 'count' and its value to the length of the string
+  WHILE count is greater than 0
+    Take the first character of the string and put it into the array
+    Minus the value of count by 1
+  SET a variable called hits which contains an empty array
+  SET a variable called times and give it the value of 3
+  WHILE times is greater than 0
+    compare the target value to the elements in array
+    if the comparison equals true
+      times is decreased by 1
+      save the index value to hits
+  BREAK the loop when all elements have been counted over
+  IF the length of hits is 3 or more
+    PRINT the value of the 3rd index
+  ELSE print "nil"
+      
+5) a method that takes two arrays of numbers and returns the result of merging the arrays.
+  The elements of the first array should become the elements at the even indexes of the returned array,
+  while the elements of the second array should become the elements at the odd indexes. You may assume
+  that both array arguments have the same number of elements.
+  Given 2 sets of arrays
+
+
