@@ -25,11 +25,11 @@
   WHILE iterator is less than or equal to the number of elements in the array
   Add each element to the variable called result
   Add 1 to the iterator
-  READ result  
+  READ result
   END
 
 3) a method that takes an array of integers, and returns a new array with
-  every other element from the original array, starting with the first element. 
+  every other element from the original array, starting with the first element.
   Given an array of integers
   Create a loop
   The loop will first save an integer into a new array
@@ -78,11 +78,31 @@
   IF the length of hits is 3 or more
     PRINT the value of the 3rd index
   ELSE print "nil"
-      
+
 5) a method that takes two arrays of numbers and returns the result of merging the arrays.
   The elements of the first array should become the elements at the even indexes of the returned array,
   while the elements of the second array should become the elements at the odd indexes. You may assume
   that both array arguments have the same number of elements.
   Given 2 sets of arrays
+  Make a new variable called length, which has the value which is the same length as the array
+  Make a new array called new_array
+  Make a loop where the first step is to put the first element of the first array into new_array
+  then delete the first element
+  then do the same for the next array
+  then decrease length by 1
+  break when length is 0
+  print new_array
+
+  GET array1
+  GET array2
+  SET length to the length of array1
+  SET new_array which is an empty array
+  WHILE length is greater than 0
+    Put the first element of array1 into new_array
+    Delete the first element of array1
+    Put the first element of array2 into new_array
+    Delete the first element of array2
+  END
+  PRINT array_2
 
 
