@@ -1,0 +1,6 @@
+welcome: "Welcome to the mortgage calculator! Please enter your name:"
+wrong_value: "Hmmm, that does not look quite right. Please try again"
+amount: "Please enter the loan amount"
+apr: "Please enter the annual percentage rate"
+duration: "Please enter the duration for repayment"
+again?: "Would you like to make another calculation? Hit Y to enter a new set of numbers"
